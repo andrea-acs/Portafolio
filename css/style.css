@@ -1,0 +1,85 @@
+@media (max-width: 1024px) {
+    .navbar-link{
+	    font-size: 9px !important;
+	}
+    main{
+	    font-size: 9px !important;
+	}
+    footer p{
+	    font-size: 9px !important;
+    }
+    card{
+        width: 80vw;
+    }
+
+}
+.navbar-link{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    margin-left: 20px;
+    font-family: Poppins;
+}
+nav{
+    display: flex;
+    text-align: end;
+    flex-wrap: nowrap;
+    position:static;
+    background-color: #ffff;
+}
+nav a:hover {
+    color: #E58443
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Poppins;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+@media (min-width: 800px) {
+    .texto{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+.titulo{
+    color: #8B7C89 !important;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top:60px;
+    padding-bottom:20px;
+}
+.titulo:hover {
+    color: #FFB500 !important;
+    font-size: 42px;
+}
+footer .container-fluid{
+    padding: 0;
+    background-color: #ffff;
+}
+footer p{
+text-align: center;
+margin-bottom: 0%;
+font-family: Poppins;
+}
+.logos-container{
+    display: flex;
+    justify-content: center;
+    }
+
+/*Jerarquia de especifidad
+!important (1,0,0,0,0)
+inline styles (0,1,0,0,0)
+#id (0,0,1,0,0)
+.class (0, 0, 0, 1, 0)
+etiquetas (0, 0, 0, 0, 0)*/
+/*Medidad
+-absolutas= px
+-Relativas= em(determinado por el navegador), rem(determinado por el font size)
+-Flexibles= vw, vh, vmin, vmax*/
